@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <!-- Bootstrap CSS and Font Aweasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <title>Document</title>
+</head>
+<body class="">
+
+    <!-- <div class="modal fade show" id="modalSystem" tabindex="-1" role="dialog" aria-labelledby="modalSystemLabel" aria-modal="true" style="display: block;">
+        <div class="modal-dialog modal-dialog-top" role="document">
+            <div class="modal-content">
+                
+                <div class="modal-body">
+                    <img src="../CSS/13.jpg" alt="" width="100%" height="100%">
+                    <p class="pt-3 mb-3 text-center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                        Promotion of 10% of deposit value starts from November 1, 2023 to 11:59 p.m. November 4, 2023. </font><font style="vertical-align: inherit;">Wishing everyone a very lucky new month, 8683 ❤️
+                    </font></font></p>
+                    
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Close notification</font></font></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+            <!-- Modal System -->
+            <div class="modal fade" id="modalSystem" tabindex="-1" role="dialog" aria-labelledby="modalSystemLabel" aria-modal="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="./CSS/13.jpg" alt="" width="100%" height="100%">
+                            <p class="pt-3 mb-3 text-center">
+                                Promotion of 10% of deposit value starts from November 1, 2023, to 11:59 p.m. November 4, 2023. Wishing everyone a very lucky new month, 8683 ❤️
+                            </p>
+                            <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close notification</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal System -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="sidebar-nav">
+                    <nav class="navbar navbar-dark bg-primary fixed-top">
+                        <div class="container-fluid">
+                            <!-- Mobile Menu Toggle Button -->
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                
+                            <!-- Menus List -->
+                            <div class="offcanvas offcanvas-start shadow" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="width: 300px;">
+                                <div class="d-flex align-items-center">
+                                    <h2 class="text-primary m-2" id="services">SERVICES</h2>
+                                    <!-- Mũi tên back -->
+                                    <button type="button" class="btn btn-outline-primary back-button ms-auto text-end m-2" data-bs-dismiss="offcanvas" aria-label="Close">
+                                        <i class="bi bi-back"></i>Back
+                                    </button>
+                                </div>
+                                <span class="border border-primary rounded m-2">
+                                    <div class="offcanvas-body">
+                                        <ul class="navbar-nav">
+                                            <li><a href="./index.html"><i class="bi bi-FB"></i> <span class="item-text"><i class="fa-solid fa-cart-shopping"></i>&nbsp;New order</span></a></li>
+                                            <li><a href="#"><i class="bi bi-INST"></i> <span class="item-text"><i class="fa-solid fa-rotate"></i>&nbsp;Orders</span></a></li>
+                                            <li><a href="#"><i class="bi bi-TIKT"></i> <span class="item-text"><i class="fa-solid fa-dollar-sign"></i>&nbsp;Add funds</span></a></li>
+                                            <li><a href="#"><i class="bi bi-TIKT"></i> <span class="item-text"><i class="fa-solid fa-ticket"></i>&nbsp;Tickets</span></a></li>
+                                            <li><a href="#"><i class="bi bi-YTB"></i> <span class="item-text"><i class="fa-solid fa-rectangle-list"></i>&nbsp;Services</span></a></li>
+                                            <li><a href="#"><i class="bi bi-TELE"></i> <span class="item-text"><i class="fa-solid fa-medal"></i>&nbsp;Levels & price list</span></a></li>
+                                            <!-- <li><a href="#"><i class="bi bi-TWIT"></i> <span class="item-text"><i class="fa-brands fa-twitter"></i>&nbsp;</span></a></li> -->
+                                        </ul>
+                                    </div>
+                                </span>
+                            </div>
+                            
+                            <div class="btn-group align-items-center">
+                                <!-- <i class="fa-solid fa-headset text-justify dropdown-toggle" style="color: #a92892; width: 30px; height: 30px; cursor: pointer;" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>&nbsp;&nbsp; -->
+                                <!-- <div class="dropdown">
+                                    <button class="btn btn-primary dropdown-toggle btn_profiles" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span class="user_top_avatar">
+                                            <img src="../CSS/user-headset.png" width="30px" height="30px">
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-start">
+                                        <li><button class="dropdown-item" type="button"><i class="bi bi-lock-fill" ></i> Join channel</button></li>
+                                        <li><button class="dropdown-item" type="button"><i class="bi bi-gear-fill"></i> Contact admin</button></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><button class="dropdown-item" type="button"><i class="bi bi-box-arrow-right"></i> Tickets</button></li>
+                                    </ul>
+                                </div> -->
+
+                                <div class="dropdown sp1">
+                                    <button class="btn btn-primary dropdown-toggle btn_profiles" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span class="user_top_avatar">
+                                            <img src="./CSS/user-headset.png" width="30px" height="30px">
+                                        </span>
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-start">
+                                        <li><button class="dropdown-item" type="button" onclick="navigateToLink('https://t.me/kh_smm')"><i class="bi bi-lock-fill"></i> Join channel</button></li>
+                                        <li><button class="dropdown-item" type="button" onclick="navigateToLink('https://t.me/khmer_smm')"><i class="bi bi-gear-fill"></i> Contact admin</button></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><button class="dropdown-item" type="button" onclick="navigateToLink('/tickets')"><i class="bi bi-box-arrow-right"></i> Tickets</button></li>
+                                    </ul>
+                                </div>
+                            
+                                <!-- Dark mode switch -->
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="darkModeToggle">
+                                    <label class="form-check-label" for="darkModeToggle">
+                                        <i class="fas fa-sun justify-content-start"></i>
+                                        <i class="fas fa-moon"></i>&nbsp;
+                                    </label>
+                                </div>
+                            
+                                <!-- Dropdown menu -->
+                                <a href="#" class="dropdown-toggle text-white text-decoration-none" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="usericon"><i class="bi bi-person-circle"></i></span>
+                                    <span class="textnone justify-content-center">Settings</span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><button class="dropdown-item" type="button"><i class="bi bi-lock-fill"></i> Account info</button></li>
+                                    <li><button class="dropdown-item" type="button"><i class="bi bi-gear-fill"></i> Top up</button></li>
+                                    <li><button class="dropdown-item" type="button"><i class="bi bi-gear-wide-connected"></i> Settings</button></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><button class="dropdown-item" type="button"><i class="bi bi-box-arrow-right"></i> Log out</button></li>
+                                </ul>
+                            
+                            </div>
+                            
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <div class="random-text-container text-center" style="margin-top: 55px;">
+        <div class="matrix-effect">
+            <div class="random-text"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="margin-top: 10px;">
+
+        <div class="row">
+            <div class="col-3 d-none d-md-block d-lg-block" >
+                <div class="card shadow" style="width: 100%;" id="info">
+                    <img class="rounded m-3" src="https://i.pinimg.com/236x/f1/00/31/f100310b5dfe75a670c81708db6ecfd1.jpg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">ID:989935</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">NAME: hvuitsme</h6>
+                        <p class="card-text">$:10000</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="col card-right">
+
+                <h1 class="text-center">Xin chào! Broooooooooo</h1>
+
+                <div class="card shadow" style="width: 100%;">
+                    <div class="card-body">
+                        <div class="container  menu2">
+                            <div class="row text-center">
+                                <div class="col-4">
+                                    <div class="card">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./CSS/wallet.png" alt="" width="60%">
+                                        </div>
+                                        <div class="card-body">
+                                          <p class="card-text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./CSS/sack.png" alt="" width="60%">
+                                        </div>
+                                        <div class="card-body">
+                                          <p class="card-text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./CSS/calendar.png" alt="" width="60%">
+                                        </div>
+                                        <div class="card-body">
+                                          <p class="card-text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-3 shadow" style="width: 100%;">
+                    <div class="card-body">
+                        <div class="container menu3">
+                            <div class="row text-center">
+                                <div class="col-md-3">
+                                    <button class="btn_filter btn btn-outline-primary" onclick="openLink('https://www.facebook.com')" data-id="facebook">
+                                        <i class="fab fa-facebook" aria-hidden="true"></i><span class="filter_txt"> Facebook</span>
+                                    </button>                                    
+                                </div>
+                                
+                                <div class="col-md-3">
+                                    <button class="btn_filter btn btn-outline-primary position-relative" href="#" onclick="return false;" data-id="instagram">
+                                        <i class="fab fa-instagram" aria-hidden="true"></i><span class="filter_txt"> Instagram</span>
+                                        <span class="rounded soon-badge position-absolute top-0 end-0 bg-warning text-dark px-2 py-0">Soon</span>
+                                    </button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button class="btn_filter btn btn-outline-primary position-relative" href="#" onclick="return false;" data-id="youtube">
+                                        <i class="fab fa-youtube" aria-hidden="true"></i><span class="filter_txt"> Youtube</span>
+                                        <span class="rounded soon-badge position-absolute top-0 end-0 bg-warning text-dark px-2 py-0">Soon</span>
+                                    </button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button class="btn_filter btn btn-outline-primary position-relative" href="#" onclick="return false;" data-id="tiktok">
+                                        <i class="fab fa-tiktok" aria-hidden="true"></i><span class="filter_txt"> Tiktok</span>
+                                        <span class="rounded soon-badge position-absolute top-0 end-0 bg-warning text-dark px-2 py-0">Soon</span>
+                                    </button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button class="btn_filter btn btn-outline-primary position-relative" href="#" onclick="return false;" data-id="telegram">
+                                        <i class="fab fa-telegram" aria-hidden="true"></i><span class="filter_txt"> Telegram</span>
+                                        <span class="rounded soon-badge position-absolute top-0 end-0 bg-warning text-dark px-2 py-0">Soon</span>
+                                    </button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button class="btn_filter btn btn-outline-primary position-relative" href="#" onclick="return false;" data-id="others">
+                                        <i class="fa-solid fa-gear"></i><span class="filter_txt"> Others</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3" id="order">
+            <div class="col orders" id="b1">
+                <div class="card new_order shadow" style="width: 100%; padding: 17px">
+                    <!--#eef5ff-->
+                    <span class="border-opacity-100 m-1 align-self-center" style="border-radius: 10px; width:97%; background-color: #d7f3eb">
+                        <nav class="nav nav-pills tab_btn_wrap justify-content-around m-1">
+                            <button type="button" class="btn_filter btn btn-primary col-6" style="width:45% ; margin: 0px;">
+                                <i class="fa-solid fa-cart-shopping"></i>New Order
+                            </button>
+                            <button class="btn_filter btn btn-outline-primary col-6" style="width: 45%; margin: 0px;" href="#" onclick="return false;" data-id="others">
+                                <span class="filter_txt">Favorite</span>
+                            </button>
+                        </nav>
+                    </span>
+
+                    <div class="form-group align-self-center" style="width: 98%;">
+                        <label for="category" class="">Category :</label>
+                        <select name="category" class="form-control">
+                            <option value="" disabled selected></option>
+                            <option value="healthcare-lifescience">Facebook (Recommend)</option>
+                            <option value="financial-service">Financial Services</option>
+                            <option value="communications">Communications</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group align-self-center" style="width: 98%;">
+                        <label for="industry" class="">Services :</label>
+                        <select name="industry" class="form-control">
+                            <option value="" disabled selected></option>
+                            <option value="healthcare-lifescience">Facebook (Recommend)</option>
+                            <option value="financial-service">Financial Services</option>
+                            <option value="communications">Communications</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group fields align-self-center" id="order_link" style="width: 98%;">
+                        <label class="control-label" for="field-orderform-fields-link">Link :</label>
+                        <input class="form-control" name="link" value="" type="text" id="field-orderform-fields-link">
+                      </div>
+
+                      <div class="form-group fields align-self-center" id="order_quantity" style="width: 98%;">
+                        <label class="control-label" for="field-orderform-fields-quantity">Quantity</label>
+                        <input class="form-control" name="quantity" value="" type="text" id="neworder_quantity">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col orders" id="b2">
+                <div class="card new_order shadow" style="width: 100%;">
+                    <div class="card-body">
+                        <h3>NEW!</h3>
+                        <p>Ngoài IC Itas thuộc tập đoàn IC Holdings đã trúng thầu dự án nhà ga hành khách sân bay Long Thành, ông Cagatay Ozden cho biết còn có dự án 250 triệu USD của công ty Hayat, đây là tập đoàn chuyên về sản xuất đồ gia dụng cũng như tham gia xây dựng các khu công nghiệp tại Thổ Nhĩ Kỳ và nhiều nước.
+
+                            Thứ trưởng Bộ Thương mại Thổ Nhĩ Kỳ Volkan Agar đánh giá Việt Nam là nền kinh tế tăng trưởng mạnh mẽ tại châu Á và có tầm quan trọng trong hợp tác đầu tư. Với thực tế nhiều doanh nghiệp Thổ Nhĩ Kỳ đang hợp tác tích cực ở Việt Nam, ông Volkan Agar nhận định đây là cơ hội lớn cho các doanh nghiệp khác thâm nhập vào thị trường Việt Nam.
+                            
+                            Thổ Nhĩ Kỳ đã có thể tự sản xuất các trang thiết bị rất tinh xảo, trong nhiều lĩnh vực như thương mại điện tử, giao thông thông minh, logistic… Theo Thứ trưởng Bộ Thương mại Thổ Nhĩ Kỳ, đây đều là các lĩnh vực hai nước có thể thúc đẩy hợp tác.
+                            
+                            Cùng chung đánh giá, ông Mehmet Faith Kacir, Bộ trưởng Bộ Công nghiệp và Công nghệ Thổ Nhĩ Kỳ, cho rằng châu Á là một trong những khu vực đang phát triển năng động nhất thế giới. Trong đó, Việt Nam cũng được ghi nhận đạt tốc độ phát triển rất cao và năng động.
+                            
+                            Ông khẳng định các nhà đầu tư Thổ Nhĩ Kỳ sẵn sàng hợp tác với doanh nghiệp trong lĩnh vực công nghiệp. Chính phủ hai nước cần tạo thuận lợi cho các doanh nghiệp về thủ tục visa, thương mại điện tử, theo đề xuất của ông Mehmet Faith Kacir. Ông kỳ vọng hai nước sẽ có hợp tác trong lĩnh vực hạ tầng cơ sở, như xây dựng sân bay.
+                            
+                            Tạo điều kiện thuận lợi cho dân</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <!-- <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a> -->
+            <span class="ml-3 mb-md-0 text-body-secondary">© 2023 by MR.HAI</span>
+          </div>
+      
+          <ul class="nav col-md-3 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-facebook-messenger fa-2xl"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+          </ul>
+        </footer>
+      </div>
+
+    <!-- nháp -->
+    <!-- // Hàm chọn ngẫu nhiên một câu từ mảng
+function getRandomText() {
+  const randomIndex = Math.floor(Math.random() * randomTexts.length);
+  return randomTexts[randomIndex];
+}
+
+// Hàm cập nhật nội dung của thẻ div
+function updateRandomText() {
+  const randomTextContainer = document.querySelector('.random-text');
+  if (randomTextContainer) {
+      randomTextContainer.textContent = getRandomText();
+  }
+}
+
+// Gọi hàm cập nhật lúc trang web được tải
+document.addEventListener('DOMContentLoaded', function() {
+  // Cập nhật ngay khi trang được tải
+  updateRandomText();
+
+  // Thiết lập interval để cập nhật mỗi 5 giây
+  setInterval(updateRandomText, 5000);
+});
+
+function navigateToLink(link) {
+  // Chuyển hướng đến đường link khi nút được nhấn
+  window.location.href = link;
+}
+ -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./JS/index.js"></script>
+</body>
+</html>
